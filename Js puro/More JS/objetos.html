@@ -1,0 +1,36 @@
+<html>
+    <body>
+        <script>
+            const people = {
+                firstName: 'Paulo', 
+                lastName: 'Vinicius',
+                age: '21',
+                hobbies: ['Assistir futebol', 'jogar video game', 'ler'],
+                dog: {
+                    name: "Leão",
+                    age: 3,
+                },
+            };
+
+            //const firstName = people.firstName;
+            //const lastName = people.lastName;
+            //const age = people.age;
+            //const hobbies = people.hobbies;
+
+            const {firstName: primeiroNome, lastName, age, hobbies, dog} = people;
+
+            const read = people.hobbies[2];
+
+            console.log(primeiroNome);
+            console.log(lastName);
+            console.log(age);
+            console.log(hobbies);
+            console.log(read);
+            
+                console.log(dog);
+
+                
+
+        </script>
+    </body>
+</html>

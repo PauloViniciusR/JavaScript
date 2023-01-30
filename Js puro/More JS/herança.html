@@ -1,0 +1,48 @@
+<html>
+    <body>
+        <script>
+           class Programação{
+            constructor(linguagens){
+                this.name = linguagens;
+            }
+
+            linguage(){
+                console.log(`${this.name} é uma linguagem frontend`);
+            }
+
+           }
+
+           class PHP extends Programação{
+             constructor(linguagens){
+                super(linguagens)
+             }
+
+             linguage(){
+                console.log(`${this.name} é uma linguagem backend`);
+           }
+
+           }
+
+           class Nodejs extends Programação{
+            constructor(linguagens){
+                super(linguagens)
+            }
+
+            linguage(){
+                console.log(`${this.name} é um framework`);
+            }
+           }
+           
+
+            const JS = new Programação("JavasScript");
+            const php = new PHP("PHP");
+            const node = new Nodejs("NodeJS")
+
+            JS.linguage();
+            php.linguage();
+            node.linguage();
+
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+    <body>
+        <script>
+            const names = ['Paulo', 'Vinicius', 'Juliana', 20, true];
+
+            const list = names[1];
+
+            
+            names.unshift('Patricia');
+
+            names.pop();
+            names.pop();
+
+            names.push('Pedro');
+
+            names[4] = "Vini";
+
+
+            const indexOfJuliana = names.indexOf('Juliana');
+
+            const sortedNames = names.sort();
+
+            const namesIsArray = Array.isArray(indexOfJuliana);
+
+            console.log(names);
+            console.log(namesIsArray);
+            console.log(sortedNames);
+            
+        </script>
+    </body>
+</html>

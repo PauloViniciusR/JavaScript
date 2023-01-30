@@ -1,0 +1,30 @@
+<html>
+    <body>
+        
+        <script>
+            const numbers = [1, 2, 3, 4];
+                
+            const numbersByTwo = numbers.map(function(item){
+                return item * 2
+            });
+
+            const ages = [8, 13, 27, 30, 22, 45];
+
+                //const filterEven = ages.filter(function(age){
+                    //return age % 2 === 0;
+               // });
+
+            const sumOfAges = ages.reduce(function(value, accumulator){
+                return accumulator + value;
+            }, 0);
+
+            console.log(sumOfAges);
+            
+            
+
+
+
+
+        </script>
+    </body>
+</html>
